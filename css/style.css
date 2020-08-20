@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+  
+  }
+  .Akhils-btn{
+    background: #06A77D;
+    color: #ffffff ;
+    border-radius: 4px;
+    padding: 7px 25px 8px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+    height: 50%;
+  }
+  .Akhils-btn:hover{
+    background: #ffd000;
+    color: #343a40;
+  }
+  .Akhils-Card{
+    transition: transform .2s;
+    background: #005377;
+    color:#ffff;
+  }
+  .Akhils-Card:hover {
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(0.5); 
+    transform: scale(.8); 
+    background: #ffd000;
+    color:#005377;
+  }
+
+
+
+  .first-card{
+    transition: transform .2s;
+    color:#ffff;
+  }
+  .first-card:hover {
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(0.5); 
+    transform: scale(1.2); 
+    color:#005377;
+  }
